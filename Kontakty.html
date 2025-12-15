@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakty</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+    }
+    .navbar .btn-outline-success {
+      color: white;
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+    }
+    .navbar .btn-outline-success:hover {
+      background-color: #0b5ed7;
+      border-color: #0b5ed7;
+    }
+    nav ul {
+    list-style: none;
+    padding: 2px;
+}
+
+nav ul li {
+    display: inline;
+   margin: 5px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+  </style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <strong><a class="navbar-brand" href="#">Chovatelská stanice</a></strong>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a href="Domů.html">Domů</a>
+        </li>
+        <li class="nav-item">
+          <a href="Stanice 3.html">Naše zvířata</a>
+        </li>
+        <li class="nav-item">
+          <a href="stanice 2.html">Štěňata/Koťata</a>
+        </li>
+        <li class="nav-item">
+          <a href="Plemeno.html">Péče</a>
+        </li>
+        <li class="nav-item">
+          <a href="Kontakty.html">Kontakty</a>
+        </li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Hledat">
+        <button class="btn btn-outline-success">Hledat</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section class="hero py-5 bg-primary-subtle">
+  <div class="container py-5 text-center">
+    <h1 class="display-1 mb-3">Kontakt & Rezervace</h1>
+    <p class="lead">
+      Rádi vám odpovíme na dotazy a pomůžeme s výběrem vhodného mláděte.
+    </p>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container text-center">
+
+    <h1 class="display-1 mb-4">Kontakty</h1>
+
+    <p class="lead"><strong>Telefon:</strong> +420 123 456 789</p>
+    <p class="lead"><strong>E-mail:</strong> info@chovstanice.cz</p>
+    <p class="lead"><strong>Sociální sítě:</strong> Facebook / Instagram</p>
+    <p class="lead"><strong>Provozní doba:</strong> Po–Pá 9:00–17:00</p>
+
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container text-center">
+
+    <h1 class="display-1 mb-4">Adresa & návštěva</h1>
+
+    <p class="lead">
+      Chovatelská stanice <br>
+      Vesnická 123, 123 45 Praha
+    </p>
+
+    <p>
+     - Návštěvy jsou možné pouze po předchozí domluvě.<br>
+     - Parkování je zajištěno přímo u objektu.<br>
+     - Z důvodu ochrany zvířat prosíme o dodržování hygienických pravidel.
+    </p>
+
+   
+    <div class="mt-4">
+      <img src="https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/50.027744,14.507765/15?ms=323,200&sv=9.43&ml=Basemap,LandCover,Landmarks&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=cs-CZ&fmt=jpeg&od=2&shading=hill&logo=n&da=ro&pp=50.027744,14.507765;dfp.ss;Opatov-Metro+C" class="img-fluid rounded" alt="Mapa" style="border-radius: 15px;">
+    </div>
+
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+
+    <h1 class="display-1 text-center mb-5">Rezervační formulář</h1>
+
+    <form class="row g-3">
+
+      <div class="col-md-6">
+        <label class="form-label">Jméno a příjmení</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">E-mail</label>
+        <input type="email" class="form-control">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Telefon</label>
+        <input type="tel" class="form-control">
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Zájem o</label>
+        <select class="form-select">
+          <option>Konkrétní mládě</option>
+          <option>Plánovaný vrh</option>
+        </select>
+      </div>
+
+      <div class="col-12">
+        <label class="form-label">Popište vaše životní podmínky</label>
+        <textarea class="form-control" rows="3"></textarea>
+      </div>
+
+      <div class="col-12 form-check">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label">
+          Souhlasím se zpracováním osobních údajů (GDPR)
+        </label>
+      </div>
+
+      <div class="col-12 text-center">
+        <button class="btn btn-primary btn-lg mt-3">Odeslat rezervaci</button>
+      </div>
+
+    </form>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container text-center">
+
+    <h1 class="display-1 mb-4">Dokumenty ke stažení</h1>
+
+    <ul class="list-unstyled lead">
+      <li><a href="#">Kupní smlouva – vzor (PDF)</a></li>
+      <li><a href="#">Chovatelský řád (PDF)</a></li>
+      <li><a href="#">Checklist výbavy (PDF)</a></li>
+    </ul>
+
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container text-center">
+
+    <h1 class="display-1 mb-4">Co bude dál?</h1>
+
+    <p class="lead">
+     - Po odeslání formuláře vás budeme kontaktovat do 2 pracovních dnů.<br>
+     - Domluvíme si další postup, případně osobní návštěvu.<br>
+     - Rezervace je potvrzena až po vzájemné dohodě.
+    </p>
+
+  </div>
+</section>
+
+
+<footer class="text-center text-secondary py-3">
+  <small>© 2025 Chovatelská stanice – Kontakt & Rezervace</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
